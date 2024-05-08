@@ -9,6 +9,8 @@ app.get('/', (req,res)=>{
     })
 })
 
+let v = 10;
+
 app.listen(PORT, ()=>{
     console.log("Server is running on PORT : "+PORT);
 })
