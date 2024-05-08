@@ -10,6 +10,7 @@ app.get('/', (req,res)=>{
 })
 
 let v = 10;
+let v2 = 20;
 
 app.listen(PORT, ()=>{
     console.log("Server is running on PORT : "+PORT);
